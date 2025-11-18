@@ -187,7 +187,7 @@ function App() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder=""
-          />
+          /> 
           {input.length > 0 && (
           <button className="button funtime-button" type="submit">
                 <span>Enter</span>
